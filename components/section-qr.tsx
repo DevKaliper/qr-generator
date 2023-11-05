@@ -2,6 +2,7 @@ import { NEXT_FONT_MANIFEST } from "next/dist/shared/lib/constants";
 import QrGenerator from "./QRgenerator";
 import { Button } from "./ui/button";
 import LoadingInfinite from "./ui/loading-animation";
+import { ArrowDownToLine } from "lucide-react";
 
 interface QrProps {
   link: string;
@@ -43,16 +44,13 @@ const SectionQR: React.FC<QrProps> = ({ link }) => {
     if(link){
         return(
             <ContainerSection>
-                <h2 className="my-3 font-semibold  lg:text-2xl">
-                    Its Done! Your QR code is ready
-
-                </h2>
+               
                 <div className="">
                     <QrGenerator link={link} />
                 </div>
 
-                <Button className="my-5" onClick={onImageCownload}>
-                    Share
+                <Button className="my-5 flex justify-center items-center gap-2" onClick={onImageCownload}>
+                    Download QR <ArrowDownToLine />
                 </Button>
                 
             </ContainerSection>
