@@ -5,6 +5,7 @@ function QrGenerator({link}: {link: string}) {
   return (
     
     <QRCode
+    id='QRcode'
     size={256}
     style={{ height: "auto", maxWidth: "100%", width: "100%" }}
     value={link}
