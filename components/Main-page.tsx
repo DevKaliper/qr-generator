@@ -8,8 +8,9 @@ export default function MainPage() {
             <Header/>
         </header>
 
-        <section>
-            <h2>main</h2>
+        <section className="flex flex-col lg:flex-row gap-2 justify-center items-center w-full h-[90%] mt-4 ">
+            <h2 className="h-full w-full lg:w-3/5  bg-gray-300">generate</h2>
+            <h2 className="h-full w-full lg:w-2/5 bg-gray-300">Code</h2>
         </section>
 
         <footer>
