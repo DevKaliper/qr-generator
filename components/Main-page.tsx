@@ -15,12 +15,12 @@ export default function MainPage() {
     
 
     return (
-        <main className="h-screen w-screen px-3 py-2 flex-col gap-3 overflow-hidden">
+        <main className="h-screen w-screen px-3 py-2 flex-col gap-3 overflow-x-hidden">
         <header>
             <Header/>
         </header>
 
-        <section className="flex flex-col lg:flex-row gap-2 justify-center items-center w-full h-[90%] mt-4 ">
+        <section className="flex flex-col lg:flex-row gap-2 justify-between items-center w-full h-[90%] mt-4 ">
            <SectionGenerate value={value} setValue={setValue} setLink={setLink}/>
               <SectionQR link={link} />
         </section>

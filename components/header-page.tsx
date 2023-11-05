@@ -10,7 +10,7 @@ export default function Header() {
     <div className="flex  w-full items-center  justify-between   rounded-lg px-5 py-3 shadow-lg ">
       <div className="flex items-center justify-center gap-1">
         <Logo />
-        <span className="text-2xl font-bold">QR Generator</span>
+        <span className="md:text-2xl font-bold">QR Generator</span>
       </div>
 
       <div className="flex gap-4">
