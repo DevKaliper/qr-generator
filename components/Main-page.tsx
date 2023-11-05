@@ -1,5 +1,6 @@
 import Header from "./header-page"
 import SectionGenerate from "./section-generate"
+import SectionQR from "./section-qr"
 
 
 export default function MainPage() {
@@ -11,7 +12,7 @@ export default function MainPage() {
 
         <section className="flex flex-col lg:flex-row gap-2 justify-center items-center w-full h-[90%] mt-4 ">
            <SectionGenerate/>
-            <h2 className="h-full w-full lg:w-2/5 bg-gray-300">Code</h2>
+              <SectionQR/>
         </section>
 
         <footer>
