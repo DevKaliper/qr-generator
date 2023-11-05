@@ -8,6 +8,7 @@ export default function SectionQR() {
                 <LoadingInfinite />
                 
             </div>
+            <i className="my-2">{' ℹ First you need click the Generate button. '}</i>
           
         </article>
     )
