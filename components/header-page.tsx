@@ -1,6 +1,9 @@
+import { ModeToggle } from "./toggle-theme"; 
+
+
 export default function Header() {
   return (
-    <div className="w-full  px-5 py-3 bg-gray-300 rounded-lg flex justify-between items-center ">
+    <div className="w-full  px-5 py-3 border shadow-lg border-gray-950 dark:border-gray-300 rounded-lg flex justify-between items-center ">
         <div>
 
       <span>logo</span>
@@ -10,7 +13,7 @@ export default function Header() {
       <div className="flex gap-4">
         <span>Github</span>
         <span>X</span>
-        <span>Theme-switch</span>
+        <ModeToggle />
       </div>
     </div>
   );
