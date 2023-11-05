@@ -9,7 +9,9 @@ import SectionQR from "./section-qr"
 
 
 export default function MainPage() {
+    const [value, setValue] = useState<string>("")
     const [link, setLink] = useState<string>("")
+    
 
     return (
         <main className="h-screen w-screen px-3 py-2 flex-col gap-3 overflow-hidden">
@@ -18,7 +20,7 @@ export default function MainPage() {
         </header>
 
         <section className="flex flex-col lg:flex-row gap-2 justify-center items-center w-full h-[90%] mt-4 ">
-           <SectionGenerate link={link} setLink={setLink}/>
+           <SectionGenerate value={value} setValue={setValue} setLink={setLink}/>
               <SectionQR link={link} />
         </section>
 

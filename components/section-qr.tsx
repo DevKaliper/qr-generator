@@ -6,11 +6,15 @@ interface QrProps {
 }
 
 const  SectionQR: React.FC<QrProps> = ({link}) => {
-    if (link){
+    if(link) {
+        // this is the link that we need to generate the QR code
         return (
-            <h2>REcibo el link</h2>
+            <h1>Creando code qr</h1>
         )
-    }
+
+    } 
+    
+ 
 
     return (
         <article className="h-full w-full lg:w-2/5 flex flex-col justify-center items-center  shadow-lg  rounded-lg">
