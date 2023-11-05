@@ -1,36 +1,43 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Online QR Code Generator
 
-## Getting Started
 
-First, run the development server:
+This is an online QR code generator that allows you to create QR codes from website links. The tool is accessible directly through your web browser, with no need to download or install anything. Simply enter the link into the input field and follow the steps below.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## Usage
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+1. Open the [QR Code Generator Page]().
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+2. In the input field, enter the website link you want to convert into a QR code.
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+3. Click the "Generate" button.
 
-## Learn More
+4. The QR code will be generated and displayed on the screen.
 
-To learn more about Next.js, take a look at the following resources:
+5. To download the QR code, click the "Download" button.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## ScreenShots
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+![image](https://github.com/DevKaliper/qr-generator/assets/122651755/fbf0c623-82bc-463e-9609-d46362d7edad)
 
-## Deploy on Vercel
+<hr>
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+![image](https://github.com/DevKaliper/qr-generator/assets/122651755/d896f42f-722b-43b6-9bb5-12399792a00f)
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+
+
+
+## Contributions
+
+If you wish to contribute to this project, we are open to collaborations! If you have ideas for new features or improvements, please contact us at mleon@engineer.com to discuss potential contributions.
+
+## License
+
+This project is under the MIT. You can find more details in the [LICENSE](LICENSE) file in the repository.
+
+## Contact
+
+If you have any questions or suggestions, feel free to get in touch with the development team:
+
+- Email: mleon@engineer.com
+
+Thank you for using the Online QR Code Generator! We hope this tool serves your needs effectively. Have fun generating QR codes!
