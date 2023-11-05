@@ -1,21 +1,35 @@
+import { ModeToggle } from "./toggle-theme";
+import { Button } from "@/components/ui/button";
 
-import { ModeToggle } from "./toggle-theme"; 
-
-import {Logo} from "./Icons";
-
+import { Logo } from "./Icons";
+import { Github, Twitter } from "lucide-react";
+import Link from "next/link";
 
 export default function Header() {
-
   return (
-    <div className="w-full  px-5 py-3  shadow-lg   rounded-lg flex justify-between items-center ">
-        <div className="flex gap-1 justify-center items-center">
-          <Logo />
-      <span className="text-2xl font-bold">QR Generator</span>
-        </div>
+    <div className="flex  w-full items-center  justify-between   rounded-lg px-5 py-3 shadow-lg ">
+      <div className="flex items-center justify-center gap-1">
+        <Logo />
+        <span className="text-2xl font-bold">QR Generator</span>
+      </div>
 
       <div className="flex gap-4">
-        <span>Github</span>
-        <span>X</span>
+        <Button
+          variant="outline"
+          size="icon">
+          <Link
+            href="https://twitter.com/devkaliper"
+            target="_blank">
+            <Twitter className="h-[1.2rem] w-[1.2rem] rotate-0 scale-100 transition-all " />
+          </Link>
+        </Button>
+        <Button
+          variant="outline"
+          size="icon">
+            <Link href="https://github.com/DevKaliper" target="_blank">
+          <Github className="h-[1.2rem] w-[1.2rem] rotate-0 scale-100 transition-all  " />
+            </Link>
+        </Button>
         <ModeToggle />
       </div>
     </div>

@@ -4,6 +4,7 @@ import { useState } from "react"
 import Header from "./header-page"
 import SectionGenerate from "./section-generate"
 import SectionQR from "./section-qr"
+import Footer from "./footer-page"
 
 
 
@@ -24,8 +25,8 @@ export default function MainPage() {
               <SectionQR link={link} />
         </section>
 
-        <footer>
-            <h3>footer</h3>
+        <footer className="h-auto w-full flex justify-center items-center">
+            <Footer/>
         </footer>
         </main>
     )
