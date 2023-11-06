@@ -5,7 +5,7 @@ This is an online QR code generator that allows you to create QR codes from webs
 
 ## Usage
 
-1. Open the [QR Code Generator Page]().
+1. Open the [QR Code Generator Page](https://qr-generator-two-omega.vercel.app/).
 
 2. In the input field, enter the website link you want to convert into a QR code.
 
@@ -16,12 +16,13 @@ This is an online QR code generator that allows you to create QR codes from webs
 5. To download the QR code, click the "Download" button.
 
 ## ScreenShots
-
-![image](https://github.com/DevKaliper/qr-generator/assets/122651755/fbf0c623-82bc-463e-9609-d46362d7edad)
+![image](https://github.com/DevKaliper/qr-generator/assets/122651755/96b29ab6-c38c-4dc5-82aa-d55a23ecfb3d)
 
 <hr>
 
-![image](https://github.com/DevKaliper/qr-generator/assets/122651755/d896f42f-722b-43b6-9bb5-12399792a00f)
+![image](https://github.com/DevKaliper/qr-generator/assets/122651755/35fb9921-6c04-4278-938e-25d7106be846)
+
+
 
 
 
