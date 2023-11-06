@@ -1,9 +1,11 @@
 import type { Metadata } from 'next'
+import Script from 'next/script'
 import { Inter as FontSans } from 'next/font/google'
 import './globals.css'
 import { cn } from '@/lib/utils'
 import { ThemeProvider } from '@/components/theme-provider'
 import { Toaster } from "@/components/ui/toaster"
+
 
 
  
@@ -24,6 +26,14 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
+    
+       <Script
+        type="module"
+        defer
+        src="https://cdn.jsdelivr.net/npm/ldrs/dist/auto/grid.js"
+      ></Script>
+
+   
       <body className={cn(
           "min-h-screen bg-background font-sans antialiased",
           fontSans.variable

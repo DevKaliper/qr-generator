@@ -1,4 +1,5 @@
-import { NEXT_FONT_MANIFEST } from "next/dist/shared/lib/constants";
+"use client";
+
 import QrGenerator from "./QRgenerator";
 import { Button } from "./ui/button";
 import LoadingInfinite from "./ui/loading-animation";

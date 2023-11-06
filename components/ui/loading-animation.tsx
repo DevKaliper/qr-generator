@@ -1,22 +1,25 @@
 
 "use client"
-import React from 'react'
-import { useTheme } from 'next-themes'
-import { grid } from 'ldrs'
+import React from "react";
+import { useEffect } from "react";
+import { useTheme } from "next-themes";
 
-grid.register()
-const LoadingInfinite = () => {
-  const {theme} = useTheme()
+
+export default function Loader() {
+  const { theme } = useTheme();
+  useEffect(() => {
+    async function getLoader() {
+      const { grid } = await import("ldrs");
+      grid.register();
+    }
+    getLoader();
+  }, []);
   return (
-    <div>
-        <l-grid
-  size="60"
-  speed="1.5" 
-  color={theme === 'dark' ? "white" : theme === 'light' ? "black" : "gray"} 
-></l-grid>
-        
-    </div>
-  )
+    <l-grid
+      size="60"
+      speed="1.5"
+      color={
+        theme === "dark" ? "white" : theme === "light" ? "black" : "gray"
+      }></l-grid>
+  );
 }
-
-export default LoadingInfinite
