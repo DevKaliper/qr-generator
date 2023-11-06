@@ -60,7 +60,7 @@ const SectionQR: React.FC<QrProps> = ({ link }) => {
   return (
     <ContainerSection>
          <h2 className="my-3 font-semibold lg:text-2xl">
-        Your Magnificant code will appear here :)
+         Your Magnificent QR code will appear here :)
       </h2>
       <div>
         <LoadingInfinite />
